@@ -100,3 +100,4 @@ The analysis reveals that there are distinct differences among the various racia
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+In conclusion, a comprehensive analysis of the expanded dataset confirms that individuals belonging to the white and other racial groups are more inclined to favor capital punishment. Conversely, the data consistently indicates that individuals from the black racial group express opposition to capital punishment. This broader examination of data points reinforces the observed disparity in opinions between these racial groups on the subject of capital punishment.
