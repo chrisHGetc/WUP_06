@@ -62,9 +62,12 @@ The bar chart data indicates that individuals who identify as white, as well as 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
-
-
-
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+According to the data provided, approximately 65% of individuals belonging to the white racial group express favor towards capital punishment. In contrast, around 57% of respondents from the black racial group indicate opposition to capital punishment. Furthermore, among individuals categorized as "other," approximately 55% express favor towards capital punishment. These percentages highlight the varying perspectives on capital punishment across the different racial groups, with white individuals showing higher support, black individuals exhibiting higher opposition, and individuals categorized as "other" leaning towards favoring capital punishment.
 
 ## Inferential Results
 
