@@ -79,9 +79,15 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+The p-value of 5.896e-05 indicates a statistically significant difference in opinions regarding capital punishment between the white and other racial groups. This low p-value suggests that the observed difference in favoring capital punishment among white individuals and their counterparts in the "other" category is unlikely to be due to random chance. The data clearly shows that the white racial group tends to be in favor of capital punishment, while the black racial group leans towards opposition.
 
 
+```{r}
+fisherXY(mydata$race,mydata$cappun)
+```
 
+The utilization of the Fisher's exact test, as indicated by the obtained p-value of 1.741e-05, reveals a highly significant difference in opinions regarding capital punishment between the white and black racial groups. This extremely low p-value suggests that the observed difference is unlikely to be attributed to random chance.The data provides compelling evidence to support the assertion that black and white individuals hold divergent opinions on the subject of capital punishment. The statistical significance of the findings underscores the presence of a substantial discrepancy in viewpoints between these racial groups.
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
