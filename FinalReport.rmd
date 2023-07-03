@@ -63,8 +63,13 @@ According to the data presented, the chart indicates that there exists a higher 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
+Analyzing the first table, it can be observed that among the white population, 65.10% express favor for capital punishment, while 34.90% hold an opposing stance. Similarly, among the black population, 42.63% oppose capital punishment, whereas 57.37% express favor for it. Among individuals categorized as "other," 55.20% are in favor, while 44.80% oppose capital punishment. The second chart further demonstrates this by saynig 79.80% white are in favor of capital punishment, 24% black oppose and other category 8.47 oppose. 
 
 ## Now with More data
 
