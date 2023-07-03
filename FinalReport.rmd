@@ -12,6 +12,7 @@ output: html_document
 
 
 ```{r include=FALSE,echo=FALSE}
+source(file="fisherXY.R")
 require(tidyverse)
 require(tigerstats)
 require(knitr)
@@ -92,7 +93,7 @@ The utilization of the Fisher's exact test, as indicated by the obtained p-value
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-
+In conclusion, a lower observed number of data points, it is evident that there exists a significant difference in opinions between white and black individuals regarding the subject of capital punishment. The available data strongly supports the notion that these two racial groups hold contrasting viewpoints with white race in favor of capital punishment and black oppose.
 
 
 
